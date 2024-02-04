@@ -1,0 +1,14 @@
+[
+  {
+    "enabled": true,
+    "script_filename": "dev-fetch-users-team-memberships-from-github-org.js",
+    "name": "fetch users team memberships from github org",
+    "order": 1
+  },
+  {
+    "enabled": true,
+    "script_filename": "add-users-teams-to-idToken.js",
+    "name": "add users teams to idToken",
+    "order": 2
+  }
+]
