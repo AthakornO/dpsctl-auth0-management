@@ -74,17 +74,14 @@ exports.onExecutePostLogin = async (event, api) => {
               }
             })
             .catch((error) => {
-              console.log("3");
               throw new Error(error);
             });
         })
         .catch((error) => {
-          console.log("2");
           throw new Error(error);
         });
     })
     .catch((error) => {
-      console.log("1");
       throw new Error(error);
     });
 };
